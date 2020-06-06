@@ -71,4 +71,4 @@ Be sure to change the paths for the **backgroundImage** property to wherever you
 That's it. You should now be up and running with the included custom themes and assets! Feel free to open a [GitHub Issue](https://github.com/Adobe-Android/Windows-Terminal/issues/new) if you find anything to be lacking.
 
 ## License
-[MIT](LICENSE.md)
+[MIT](LICENSE)
