@@ -12,6 +12,9 @@ My Windows Terminal configuration files and assets.
 ### Command Prompt Theme
 ![Screenshot](examples/Command_Prompt_Theme.png)
 
+### Ubuntu Linux Theme
+![Screenshot](examples/Ubuntu_Linux_Theme.png)
+
 ## Installing and running Windows Terminal
 
 > 👉 Note: Windows Terminal requires Windows 10 1903 (build 18362) or later
