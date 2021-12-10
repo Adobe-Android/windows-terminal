@@ -10,7 +10,7 @@ My Windows Terminal configuration files and assets.
 ![Screenshot](examples/PowerShell_Theme.png)
 
 ### Command Prompt Theme
-![Screenshot](examples/Command_Prompt_Theme.png)
+![Screenshot](examples/Command_Prompt_Theme2.png)
 
 ### Ubuntu Linux Theme
 ![Screenshot](examples/Ubuntu_Linux_Theme.png)
