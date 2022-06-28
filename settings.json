@@ -4,16 +4,16 @@
     "actions": 
     [
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -53,10 +53,10 @@
                 "backgroundImageAlignment": "bottomRight",
                 "backgroundImageStretchMode": "none",
                 "colorScheme": "Amber Monochrome",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorColor": "#FFB000",
                 "cursorShape": "filledBox",
                 "experimental.retroTerminalEffect": true,
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
@@ -124,11 +124,90 @@
                 "hidden": false,
                 "name": "Ubuntu 22.04 LTS",
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "backgroundImage": "C:\\Users\\tngam\\Pictures\\PowerShell_logo.png",
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageStretchMode": "none",
+                "colorScheme": "PowerShellCore",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "C:\\Users\\tngam\\source\\repos"
             }
         ]
     },
     "schemes": 
     [
+        {
+            "background": "#282828",
+            "black": "#FFB000",
+            "blue": "#FFB000",
+            "brightBlack": "#FFB000",
+            "brightBlue": "#FFB000",
+            "brightCyan": "#FFB000",
+            "brightGreen": "#FFB000",
+            "brightPurple": "#FFB000",
+            "brightRed": "#FFB000",
+            "brightWhite": "#FFB000",
+            "brightYellow": "#FFB000",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#FFB000",
+            "foreground": "#FFB000",
+            "green": "#FFB000",
+            "name": "Amber Monochrome",
+            "purple": "#FFB000",
+            "red": "#FFB000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFB000",
+            "yellow": "#FFB000"
+        },
+        {
+            "background": "#282828",
+            "black": "#33FF33",
+            "blue": "#33FF33",
+            "brightBlack": "#33FF33",
+            "brightBlue": "#33FF33",
+            "brightCyan": "#33FF33",
+            "brightGreen": "#33FF33",
+            "brightPurple": "#33FF33",
+            "brightRed": "#33FF33",
+            "brightWhite": "#33FF33",
+            "brightYellow": "#33FF33",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#33FF33",
+            "foreground": "#33FF33",
+            "green": "#33FF33",
+            "name": "Green Monochrome",
+            "purple": "#33FF33",
+            "red": "#33FF33",
+            "selectionBackground": "#FFFFFF",
+            "white": "#33FF33",
+            "yellow": "#33FF33"
+        },
+        {
+            "name": "PowerShellCore",
+            "foreground": "#CCCCCC",
+            "background": "#1B2A3B",
+            "cursorColor": "#FFFFFF",
+            "black": "#0C0C0C",
+            "red": "#C50F1F",
+            "green": "#13A10E",
+            "yellow": "#C19C00",
+            "blue": "#0037DA",
+            "purple": "#881798",
+            "cyan": "#3A96DD",
+            "white": "#CCCCCC",
+            "brightBlack": "#767676",
+            "brightRed": "#E74856",
+            "brightGreen": "#16C60C",
+            "brightYellow": "#F9F1A5",
+            "brightBlue": "#3B78FF",
+            "brightPurple": "#B4009E",
+            "brightCyan": "#61D6D6",
+            "brightWhite": "#F2F2F2"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -358,52 +437,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        },
-        {
-            "background": "#282828",
-            "black": "#FFB000",
-            "blue": "#FFB000",
-            "brightBlack": "#FFB000",
-            "brightBlue": "#FFB000",
-            "brightCyan": "#FFB000",
-            "brightGreen": "#FFB000",
-            "brightPurple": "#FFB000",
-            "brightRed": "#FFB000",
-            "brightWhite": "#FFB000",
-            "brightYellow": "#FFB000",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#FFB000",
-            "foreground": "#FFB000",
-            "green": "#FFB000",
-            "name": "Amber Monochrome",
-            "purple": "#FFB000",
-            "red": "#FFB000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#FFB000",
-            "yellow": "#FFB000"
-        },
-        {
-            "background": "#282828",
-            "black": "#33FF33",
-            "blue": "#33FF33",
-            "brightBlack": "#33FF33",
-            "brightBlue": "#33FF33",
-            "brightCyan": "#33FF33",
-            "brightGreen": "#33FF33",
-            "brightPurple": "#33FF33",
-            "brightRed": "#33FF33",
-            "brightWhite": "#33FF33",
-            "brightYellow": "#33FF33",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#33FF33",
-            "foreground": "#33FF33",
-            "green": "#33FF33",
-            "name": "Green Monochrome",
-            "purple": "#33FF33",
-            "red": "#33FF33",
-            "selectionBackground": "#FFFFFF",
-            "white": "#33FF33",
-            "yellow": "#33FF33"
         }
     ]
 }
